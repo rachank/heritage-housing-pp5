@@ -87,3 +87,60 @@ to scaling to regressor model to predicted price in USD
 - .filter method applied to live data to ensure correct feature order and prevent silent prediction errors
 
 
+## ML Business Case
+
+**Business Objective**
+
+The objective is to build a regression model that accurately predicts house sale prices in Ames, Iowa based on individual house attribute data. This addresses the client's need to price the four inherited properties accurately while lacking the local market knowledge.
+
+**Learning Method**
+
+This ia a supervised machine learning task using regression. It is supervised because the model is being trained on historical data wher ehte actual sale prices are known. It is regression, not classification because the output we want to predict, the sale price, is a continuous numerical value rather than a category.
+
+**Ideal Outcome**
+- Provide the client with a reliable data driven tool to price the inherited properties and maximise sale value.
+
+**Model Output**
+- A single predicted house price value in USD, produced in real time.
+
+**How Predictions Are Made**
+- Client enters house attributes into the dashboard input widget and receives an instant predicted price.
+
+**Success Metrics**
+-
+
+**Failure Condisitons**
+-
+
+**Training Data**
+- 1,460 Ames Iowa sale recors from Kaggle
+- Target: SalePrice
+- Features: all variables except SalePrice
+- Final features are selected based on correclation study - weakly correclated variables will be dropped during feature selection
+-
+
+## Dashboard Design
+
+
+## Unfixed Bugs
+
+- Will be updated during implementation if any are found.
+
+
+## Deployment
+
+- To be deployed to Heroku upon project completion and details added here upon completion
+
+## Main Data analysis and ML Libraries
+
+
+## Credits
+
+- Dataset: Code Institute via Kaggle
+  https://www.kaggle.com/codeinstitute/housing-prices-data
+-
+
+## Acknowledgements
+
+- Project currently still in development
+
