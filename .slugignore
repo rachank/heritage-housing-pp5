@@ -1,0 +1,6 @@
+*.ipynb
+jupyter_notebooks/
+venv/
+*.pyc
+__pycache__/
+.git/
